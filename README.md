@@ -21,7 +21,9 @@ git clone https://github.com/dataelixir/agent-course-starter.git
 cd agent-course-starter
 ```
 
-**3. Set your API key** (current terminal window only):
+**3. Get an API key** Go to [console.anthropic.com](https://console.anthropic.com), create an account, add $10 of credits under Billing, then create an API key under API Keys. Copy it somewhere safe; you only get to see it once.
+
+**4. Put the key where Python can find it** (current terminal window only):
 
 Mac/Linux:
 ```bash
