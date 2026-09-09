@@ -1,0 +1,24 @@
+# ── Secrets — these must NEVER be committed ─────────────
+.env
+.env.*
+*.key
+*.pem
+
+# Google auth files (created by the week 2 Sheets/Gmail setup)
+credentials.json
+token.json
+service_account*.json
+
+# ── Python cruft ────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── OS noise ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── NOT ignored, on purpose ─────────────────────────────
+# output/, logs/, and manifest.json stay tracked: when your
+# agent runs on a schedule, the committed files ARE the record.
