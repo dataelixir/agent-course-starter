@@ -1,0 +1,2 @@
+# The one dependency — everything else in the course is standard library
+anthropic
